@@ -400,6 +400,18 @@ export default function App() {
               {gameState === 'ROLLING' ? 'ROLLING...' : 'ROLL DICE'}
           </span>
       </button>
+      
+      {/* External Link */}
+      <a
+          href="https://boberonmvx.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 group flex items-center gap-2 px-5 py-2.5 rounded-xl bg-stone-900/50 border border-stone-800 hover:border-green-500/30 hover:bg-stone-900 text-stone-400 hover:text-green-400 transition-all duration-300 cursor-pointer"
+      >
+          <span className="text-lg grayscale group-hover:grayscale-0 transition-all">🦫</span>
+          <span className="text-xs font-bold tracking-wider uppercase">Visit BoberOnMVX</span>
+          <span className="text-xs opacity-50 group-hover:translate-x-1 transition-transform">→</span>
+      </a>
 
       {/* Footer */}
       <div className="mt-8 flex gap-6 opacity-40 hover:opacity-100 transition-opacity duration-300">
